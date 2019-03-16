@@ -1,0 +1,169 @@
+body {
+	color: white;
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+}
+
+h1 {
+	color: white;
+	font-family: Lucida Sans Unicode;
+	font-size: 300%;
+}
+
+h2, h3 {
+	color: white;
+	font-family: Lucida Sans Unicode;
+}
+
+.nav_bar {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	background-color: black;
+	color: black;
+	font-family: Lucida Sans Unicode;
+}
+
+.nav_bar a {
+	flex-grow: 1;
+	padding: 0px 36px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav_bar a:hover {
+	background-color: rgb(115, 115, 115);
+}
+
+.text {
+	color: white;
+	font-family: Lucida Sans Unicode;
+	font-size: 15px;
+}
+
+.header {
+	text-align: left;
+}
+
+.wrapper {
+	display: table;
+	padding: 0 3% 3%;
+}
+
+.button {
+	padding-right: 1%;
+	border: none;
+	color: white;
+	background: transparent;
+	cursor: pointer;
+}
+
+#edu_table {
+	table-layout: auto;
+	width: 100%;
+}
+
+#section_1 {
+	margin-bottom: 3%;
+	float: right;
+}
+
+#section_3 {
+	//float: left;
+}
+
+#Profile_Pic {
+	float: left;
+	margin-right: 5%;
+	border-radius: 50%;
+}
+
+#overlay {
+	margin-left: 15%;
+	width: 70%;
+	padding-bottom: 20px;
+}
+
+#github_icon:hover {
+	-ms-transform: scale(1.25); 
+	-webkit-transform: scale(1.25); 
+	transform: scale(1.25);
+}
+
+#email_form {
+	margin-top: 3%;
+}
+
+.description {
+	display: block;
+	overflow: hidden;
+	height: 230px;
+	padding-left: 30px;
+}
+
+.readmore {
+	font-family: Lucida Sans Unicode;
+	color: grey;
+	outline: none;
+}
+
+.readmore:hover {
+	-ms-transform: scale(1.25); 
+	-webkit-transform: scale(1.25); 
+	transform: scale(1.25);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.image {
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.image:hover {
+	opacity: 0.7;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 60px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from { transform:scale(0); }
+	to { transform: scale(1); }
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
