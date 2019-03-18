@@ -17,9 +17,7 @@
   position: fixed;
   height: 10%;
   width: 100%;
-  background-color: #FFF; 
-  outline-color: #000;
-  outline-width: 1px;
+  background-color: #000; 
 }
 
 .top {
