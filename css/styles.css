@@ -36,23 +36,23 @@ body{
   margin-bottom: 35vh; }
 
 .linear {
-    margin-left: 1200px;
+    margin-left: 80%;
     height: 100%;
     width: 2px;
     background: black;
-    margin-top: 0px;
+    margin-top: -81px;
     position: fixed;
     z-index: 1000000000009;
     -webkit-transition-duration: 1s;
 }
 #sidebar {
-    position: relative;
-    margin-top: 0px;
+    position: fixed;
+    margin-top: 40px;
     z-index: 1000000009;
     height: 100%;
     width: 80px;
     top: 25%;
-    margin-left: 1200px;
+    margin-left: 80%;
     padding-top: 0px;
     padding-bottom: 30px;
     background: none;
