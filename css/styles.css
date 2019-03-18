@@ -40,15 +40,16 @@ body{
     height: 100%;
     width: 2px;
     background: black;
-    margin-top: -40px;
+    margin-top: 0px;
     position: fixed;
     z-index: 1000000000009;
+    -webkit-transition-duration: 1s;
 }
 #sidebar {
-    position: fixed;
+    position: relative;
     margin-top: 0px;
     z-index: 1000000009;
-    height: auto;
+    height: 100%;
     width: 80px;
     top: 25%;
     margin-left: 1200px;
@@ -82,7 +83,7 @@ sidebar a {
 }
 
 a:link, a:active, a:visited {
-    color: #75b1d6;
+    color: #000000;
     text-decoration: none;
     padding-bottom: 1px;
     -webkit-transition-duration: .2s;
