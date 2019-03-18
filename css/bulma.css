@@ -10098,8 +10098,11 @@ label.panel-block:hover {
 }
 
 .hero.is-info {
-  background: url(https://github.com/knguyen99/knguyen99.github.io/tree/master/assets/images/koi.png);
-  background-color: #ffffff;
+  background: 
+    url(https://github.com/knguyen99/knguyen99.github.io/blob/master/assets/images/koi.png),
+    no-repeat center center fixed;
+  background-size: cover;
+
   color: #000000;
 }
 
