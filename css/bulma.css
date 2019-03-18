@@ -10529,4 +10529,11 @@ label.panel-block:hover {
   height: 50%;
   width: 100%;
   background-color: #000000; }
+
+.top {
+  top: 0; }
+
+.bottom {
+  bottom: 0; }
+
 /*# sourceMappingURL=bulma.css.map */
