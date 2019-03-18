@@ -36,6 +36,7 @@ body{
   line-height:9px;
   text-transform:lowercase;
   color: #000000;
+  margin-left: auto;
 }
 
 .main {
@@ -45,7 +46,7 @@ body{
 .linear {
     margin-left: 70%;
     height: 100%;
-    width: 2px;
+    width: 1px;
     background: black;
     margin-top: -81px;
     position: fixed;
