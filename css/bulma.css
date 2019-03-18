@@ -10098,12 +10098,8 @@ label.panel-block:hover {
 }
 
 .hero.is-info {
-  background: 
-    url(https://github.com/knguyen99/knguyen99.github.io/blob/master/assets/images/koi.png),
-    no-repeat center center fixed;
-  background-size: cover;
-
-  color: #000000;
+  background-color: #209cee;
+  color: #fff;
 }
 
 .hero.is-info a:not(.button):not(.dropdown-item):not(.tag),
