@@ -2771,9 +2771,15 @@ fieldset[disabled] .button {
 }
 
 .container {
-  margin: 0 auto;
-  position: relative;
-}
+  padding-top: 16vh;
+  padding-left: 6vh;
+  padding-right: 6vh; }
+  .container canvas {
+    -moz-pointer-events: none;
+    -webkit-pointer-events: none;
+    -o-pointer-events: none;
+    -ms-pointer-events: none;
+    pointer-events: none; }
 
 @media screen and (min-width: 1088px) {
   .container {
