@@ -10542,4 +10542,8 @@ label.panel-block:hover {
 .bottom {
   bottom: 0; }
 
+.main {
+  z-index: -1;
+  margin-bottom: 35vh; }
+
 /*# sourceMappingURL=bulma.css.map */
