@@ -43,7 +43,7 @@ body{
   margin-bottom: 35vh; }
 
 .linear {
-    margin-left: 80%;
+    margin-left: 70%;
     height: 100%;
     width: 2px;
     background: black;
@@ -59,7 +59,7 @@ body{
     height: 100%;
     width: 80px;
     top: 25%;
-    margin-left: 80%;
+    margin-left: 70%;
     padding-top: 0px;
     padding-bottom: 30px;
     background: none;
@@ -79,7 +79,7 @@ sidebar a {
 .links {
     padding: 5px;
     font-family: arial;
-    font-size: 10px;
+    font-size: 1px;
     text-transform: lowercase;
     font-style: italic;
     border: 1px solid #000000;
