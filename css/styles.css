@@ -113,5 +113,8 @@ a:link, a:active, a:visited {
     color: #000000;
     z-index: 1;
     overflow: hidden;
+    display: block;
+    margin-left: 26%;
+    margin-top: -17%;
 }
 
